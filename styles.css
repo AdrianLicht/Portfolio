@@ -196,7 +196,20 @@ h2 {
 .about-content {
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;
+    padding: 20px;
+}
+
+.about-text {
+    line-height: 1.8;
+    color: var(--text-primary);
+}
+
+.about-text p {
+    margin-bottom: 1.5rem;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
 }
 
 /* Skills Section */
